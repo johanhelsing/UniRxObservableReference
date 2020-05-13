@@ -1,0 +1,17 @@
+{
+    "name": "com.johanhelsing.unirxobservablereference.editor",
+    "references": [
+        "GUID:a6e94e588a9500f4693bef2e50d23ab1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

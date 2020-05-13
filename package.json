@@ -5,7 +5,10 @@
   "description": "Inspectable and serializable observable references for UniRx",
   "unity": "2019.3",
   "keywords": [
-    "unirx", "reactive", "rx", "editor"
+    "unirx",
+    "reactive",
+    "rx",
+    "editor"
   ],
   "author": {
     "name": "Johan Klokkhammer Helsing",
@@ -15,5 +18,6 @@
   "dependencies": {
     "com.neuecc.unirx": "7.0.0"
   },
-  "type": "library"
+  "type": "library",
+  "hideInEditor": false
 }
