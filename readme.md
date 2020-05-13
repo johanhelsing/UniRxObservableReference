@@ -1,5 +1,9 @@
 # UniRx Observable Reference
 
+Inspectable serializable references to UniRx IObservable properties.
+
+Note: It works but it's still a bit rough around the edges.
+
 Adds types that can hold references to monobehavior properties implementing UniRX.IObservable.
 
 Let's say you have the following class:
