@@ -35,4 +35,9 @@ namespace ObservableReference
     public class StringObservableReference : ObservableReference<string>
     {
     }
+
+    [Serializable]
+    public class BoolObservableReference : ObservableReference<bool>
+    {
+    }
 }
