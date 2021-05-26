@@ -2,6 +2,8 @@
 
 Inspectable serializable references to UniRx IObservable properties.
 
+[Introductory blog post](https://johanhelsing.studio/posts/unirx-observable-reference)
+
 Note: It works but it's still a bit rough around the edges.
 
 Adds types that can hold references to monobehavior properties implementing UniRX.IObservable.
@@ -24,7 +26,7 @@ class HudViewModel : MonoBehaviour
     [SerializedProperty] IntObservableReference scoreReference;
     private void Start()
     {
-        scoreReference.Value.Subscribe(newScore => updateGui());
+        scoreReference.Value.Subscribe(newScore => updateGui()).AddTo(this);
     }
 
     // ...
